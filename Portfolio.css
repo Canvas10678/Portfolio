@@ -53,9 +53,6 @@
 .navbar .Menu li a:hover {
     color: rgb(141, 88, 18);
 }
-section {
-    padding: none ;
-}
 .home {
     display: flex;
     background: url("pic/Profile.jpg") no-repeat center ;
@@ -315,10 +312,6 @@ p :hover {
        padding: 10px 3%;
        transition: .4s;  
     }
-    section {
- 
-       transition: .4s;
-    }
 }
 @media only screen and (max-width : 767px){
      .navbar {
@@ -328,10 +321,6 @@ p :hover {
      .navbar.sticky {
         padding: 10px 3%;
         transition: .4s;  
-     }
-     section {
-        padding: 60px 3%;
-        transition: .4s;
      }
      .home .max-width {
         width: 95%;
