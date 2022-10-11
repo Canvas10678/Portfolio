@@ -308,7 +308,7 @@ p :hover {
     color: antiquewhite;
 }
 /* Responsive */
-@media only screen and (max-width : 1425px){
+@media only screen and (max-width : 1600px){
     .navbar {
        padding: 20px 3%;
        transition: .4s;
