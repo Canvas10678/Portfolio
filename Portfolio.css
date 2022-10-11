@@ -53,14 +53,19 @@
 .navbar .Menu li a:hover {
     color: rgb(141, 88, 18);
 }
+section {
+    padding: 100px 18%;
+}
+body { 
+    background-color: #c4bcbd;
+}
 .home {
     display: flex;
-    background: url("pic/Profile.jpg") no-repeat center ;
-    background-color: #c4bcbd;
+    background: url("pic/Profile.jpg") no-repeat center ;   
     background-size: 130vh 100vh;
     height: 100vh;
     width: 203.8vh;
-    min-width: 300px;
+    min-width: 100px;
     min-height: 300px;
     color:#311c19;
 }
@@ -312,6 +317,10 @@ p :hover {
        padding: 10px 3%;
        transition: .4s;  
     }
+    section {
+       padding: 60px 3%;
+       transition: .4s;
+    }
 }
 @media only screen and (max-width : 767px){
      .navbar {
@@ -322,6 +331,10 @@ p :hover {
         padding: 10px 3%;
         transition: .4s;  
      }
+     section {
+        padding: 60px 3%;
+        transition: .4s;
+     }
      .home .max-width {
         width: 95%;
         padding-left: 20%;
@@ -330,7 +343,16 @@ p :hover {
         width: 95%;
      }
 }
-
+.work {
+    background-color: white;
+}
+.Skill {
+    background-color: white;
+}
+.ref {
+    background-color: white;
+}
+    
 
 
     
