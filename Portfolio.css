@@ -54,7 +54,7 @@
     color: rgb(141, 88, 18);
 }
 section {
-    padding: 100px ;
+    padding: none ;
 }
 .home {
     display: flex;
